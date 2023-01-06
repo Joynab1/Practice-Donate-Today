@@ -1,9 +1,10 @@
 *{
     margin: 0;
-    font-family: sans-serif;
+   
 }
 /* header section */
 .header-donate{
+    font-family: sans-serif;
     text-align: center;
     background-image: url(../donation0.jpg);
     width: 100%;
@@ -33,4 +34,22 @@
     font-size: 20px;
     border-radius: 5px;
     margin-bottom: 100px;
+}
+/* footer styles */
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px 130px;
+}
+.footer-title{
+    color:orangered;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family:serif;
+    padding-bottom: 30px;
+}
+.footer-description{
+    color: white;
+    font-family: sans-serif;
 }
