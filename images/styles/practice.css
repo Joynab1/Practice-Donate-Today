@@ -64,6 +64,8 @@ font-family: sans-serif;
 color: gray;
 }
 .donate-amount{
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-items: center;
     gap: 24px;
@@ -123,6 +125,8 @@ margin-bottom: 20px;
 }
 /* donate plan styles */
 .donate-items{
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     font-family: sans-serif;
     font-weight: 400;
@@ -154,6 +158,50 @@ background-color: lightyellow;
 }
 .shelter h3, p{
     margin-bottom: 15px;
+}
+/* benefits styles */
+.donate-benefits{
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+gap: 40px;
+justify-content: center;
+margin-bottom: 50px;
+
+}
+.benefits{
+margin-right: 40px;
+}
+.benefits1{
+    margin-left: 40px;
+}
+.img{
+/* height: auto;
+width: 400px; */
+}
+.benefits-title{
+font-weight: 600;
+font-size: 40px;
+font-family: sans-serif;
+margin-bottom: 30px;
+}
+.benefits-description{
+
+}
+/* updates styles */
+.update-section{
+
+}
+.update-info{
+
+}
+.update-title{
+
+}.update-description{
+
+}
+.subscribe{
+     
 }
 /* footer styles */
 .footer{
