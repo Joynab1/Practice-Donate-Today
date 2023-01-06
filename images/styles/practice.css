@@ -39,6 +39,7 @@
     margin-top: 30px;
 }
 /* main styles */
+/* donate amount styles */
 .donate-section{
     padding: 60px 150px;
     text-align: center;
@@ -102,6 +103,57 @@ color: gray;
 .fifth-amount{
     background-color: rgb(249, 246, 246);
 
+}
+/* donate plan styles */
+.donate-plan{
+    text-align: center;
+}
+.plan-title{
+font-family: sans-serif;
+font-weight: 600;
+font-size: 40px;
+margin-bottom: 20px;
+}
+.plan-description{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: gray;
+}
+/* donate plan styles */
+.donate-items{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+    justify-content:left;
+}
+.food{
+padding: 25px 10px;
+margin-bottom: 20px;
+margin-right: 10px;
+background-color: lightblue;
+}
+.food h3, p{
+    margin-bottom: 15px;
+}
+.shelter{
+padding: 25px 10px;
+margin-bottom: 20px;
+background-color: lightpink;
+margin-right: 10px;
+}
+.shelter h3, p{
+    margin-bottom: 15px;
+}
+.education{
+padding: 25px 10px;
+background-color: lightyellow;
+}
+.shelter h3, p{
+    margin-bottom: 15px;
 }
 /* footer styles */
 .footer{
