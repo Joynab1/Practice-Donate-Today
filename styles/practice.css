@@ -6,7 +6,7 @@
 .header-donate{
     font-family: sans-serif;
     text-align: center;
-    background-image: url(../donation0.jpg);
+    background-image: url(../images/donation1.jpg);
     max-width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -15,12 +15,15 @@
     background-color: rgba(44, 39, 39, 0.799);
     background-blend-mode: darken;
     color: white;
+    padding: 200px 350px 100px ;
+
 }
 .header-title{
-    padding: 130px 50px 50px 100px;
+    /* padding: 130px 50px 50px 100px; */
     font-weight: 800;
     font-size: 50px;
     max-width: 100%;
+    margin-bottom: 50px;   
 }
 .header-description{
     font-size: 25px;
@@ -35,7 +38,7 @@
     font-weight: 500;
     font-size: 20px;
     border-radius: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 30px;
 }
 /* main styles */
@@ -56,20 +59,16 @@ font-weight: 400;
 font-size: 18px;
 font-family: sans-serif;
 color: gray;
-}
-.donate-description1{
-margin-bottom: 20px;
-font-weight: 400;
-font-family: sans-serif;
-color: gray;
+padding:0 350px;
 }
 .donate-amount{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .donate-amount ul li{
     display: inline-flex;
@@ -92,20 +91,22 @@ color: gray;
     background-color: rgb(242, 207, 207);
     border-radius: 10px;
     color: red;
-
 }
 .third-amount{
     background-color: rgb(249, 246, 246);
-
 }
 .forth-amount{
     background-color: rgb(249, 246, 246);
-
 }
 .fifth-amount{
     background-color: rgb(249, 246, 246);
-
 }
+.donate-description1{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: gray;
+    }
 /* donate plan styles */
 .donate-plan{
     text-align: center;
@@ -120,8 +121,9 @@ margin-bottom: 20px;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     color: gray;
+    padding: 0 350px;
 }
 /* donate plan styles */
 .donate-items{
@@ -131,8 +133,8 @@ margin-bottom: 20px;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 25px;
-    justify-content:left;
+    margin-bottom: 30px;
+    justify-content: center;
 }
 .food{
 padding: 25px 10px;
@@ -154,10 +156,14 @@ margin-right: 10px;
 }
 .education{
 padding: 25px 10px;
+margin-bottom: 20px;
 background-color: lightyellow;
 }
 .shelter h3, p{
     margin-bottom: 15px;
+}
+.education h3, p{
+    margin-bottom: 15px;  
 }
 /* benefits styles */
 .donate-benefits{
@@ -165,19 +171,21 @@ padding-left: 100px;
 padding-right: 100px;
 display: flex;
 gap: 40px;
-justify-content: center;
+/* justify-content: space-between; */
 margin-bottom: 50px;
-
+object-fit: cover;
+margin-top: 100px;
+}
+.img{
+    width: 50%;
+    margin-left: 40px;
+    padding: 0 50px;
 }
 .benefits{
 margin-right: 40px;
 }
 .benefits1{
     margin-left: 40px;
-}
-.img{
-/* height: auto;
-width: 400px; */
 }
 .benefits-title{
 font-weight: 600;
@@ -186,7 +194,7 @@ font-family: sans-serif;
 margin-bottom: 30px;
 }
 .benefits-description{
-
+color: grey;
 }
 /* updates styles */
 .update-section{
@@ -205,16 +213,28 @@ margin-bottom: 20px;
 .update-description{
 color: grey;
 font-size: 20px;
-}
-.sub{
-border: 1px solid brown;
+padding: 0 200px;
+margin-bottom: 50px;
 }
 .subscribe{
     display: flex;
-    /* height: 150px; */
-    margin: 30px 200px 50px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 30px 150px 50px;
     background-color: lightyellow;
+    font-size: 25px;
 }
+.sub{
+    background-color:  rgb(234, 100, 100);
+    border-radius: 5px;
+    padding: 10px 20px;
+    }
+    .email{
+        background-color:  rgb(232, 228, 228);
+        border-radius: 5px;
+        padding: 10px 100px 10px 20px; 
+    }
 /* footer styles */
 .footer{
     background-color: black;
