@@ -171,21 +171,25 @@ padding-left: 100px;
 padding-right: 100px;
 display: flex;
 gap: 40px;
-/* justify-content: space-between; */
 margin-bottom: 50px;
-object-fit: cover;
 margin-top: 100px;
 }
 .img{
     width: 50%;
-    margin-left: 40px;
-    padding: 0 50px;
+    /* margin-left: 40px; */
+    /* padding: 0 50px; */
+    object-fit: cover;
 }
-.benefits{
-margin-right: 40px;
+.img img {
+width:100%;
 }
-.benefits1{
-    margin-left: 40px;
+.benefits-1{
+margin-right: 50px;
+padding-right: 100px;
+}
+.benefits-2{
+    margin-left: 50px;
+    padding-left: 100px;
 }
 .benefits-title{
 font-weight: 600;
